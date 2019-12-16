@@ -561,32 +561,32 @@ def main(data_dir):
             wx[0] = path.x[1] + 0.1
             wy[0] = path.y[1]
 
-        # Check the lane condition, if in fornt of there are car it needs to turn left or right
-        # -1 --> turn left
-        # 0 --> straight
-        # 1 --> turn right
-        if check_change_lane > 0:
-            cond = -1
-            print("left")
-        elif check_change_lane == 0:
-            cond = 0
-            print("straight")
-        else:
-            cond = 1
-            print("right")
+        # # Check the lane condition, if in fornt of there are car it needs to turn left or right
+        # # -1 --> turn left
+        # # 0 --> straight
+        # # 1 --> turn right
+        # if check_change_lane > 0:
+        #     cond = -1
+        #     print("left")
+        # elif check_change_lane == 0:
+        #     cond = 0
+        #     print("straight")
+        # else:
+        #     cond = 1
+        #     print("right")
 
-        if cond == -1:
-            wx[0] = path.x[1] - 0.1
-            wy[0] = path.y[1]
-        elif cond == 0:
-            wx[0] = path.x[1]
-            wy[0] = path.y[1]
-        else :
-            wx[0] = path.x[1] + 0.1
-            wy[0] = path.y[1]
+        # if cond == -1:
+        #     wx[0] = path.x[1] - 0.1
+        #     wy[0] = path.y[1]
+        # elif cond == 0:
+        #     wx[0] = path.x[1]
+        #     wy[0] = path.y[1]
+        # else :
+        #     wx[0] = path.x[1] + 0.1
+        #     wy[0] = path.y[1]
 
 
-
+        # Check speed
 
 
 
