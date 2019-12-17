@@ -1,2 +1,2 @@
 # Frenet-Path
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/i
+![alt text](https://raw.githubusercontent.com/ferdyandannes/Frenet-Path/pseudo_trajectory.png
