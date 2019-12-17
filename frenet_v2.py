@@ -759,15 +759,7 @@ def main(data_dir):
         # else :
         #     wx[0] = path.x[1] + 0.1
         #     wy[0] = path.y[1]
-
-
-        # Check speed
-
-
-
-
-
-        
+  
         gambar_pseu_x.append(wx[0])
         gambar_pseu_y.append(wy[0])
 
